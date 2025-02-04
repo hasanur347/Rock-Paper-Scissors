@@ -3,7 +3,7 @@
 Welcome to the **Rock Paper Scissors** game, a fun and interactive web-based version of the classic game! 🎮
 
 ## 🚀 Live Demo
-[Play the Game Here]([https://hasanur347.github.io/Rock-Paper-Scissors/](https://therockpaper.netlify.app/))
+[Play the Game Here](https://therockpaper.netlify.app/)
 
 ## 🎯 Features
 
