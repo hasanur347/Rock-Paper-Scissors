@@ -1,0 +1,141 @@
+/* Welcome Text Styling */
+body {
+    background: linear-gradient(135deg, #4e54c8, #8f94fb);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+    margin: 0;
+}
+.welcome-text {
+    font-family: 'Poppins', sans-serif; /* Clean, modern font */
+    font-size: 2.5rem; /* Large, bold text */
+    color: #ff6f61; /* Vibrant coral color */
+    text-align: center; /* Center the text */
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Soft shadow for depth */
+    animation: fadeIn 2s ease-in-out; /* Smooth fade-in effect */
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* Heading */
+p{
+font-size: 2.5rem;
+margin-bottom: 20px;
+letter-spacing: 1.5px;
+}
+
+/* Emoji Container */
+.emoji-container {
+display: flex;
+justify-content: center;
+gap: 20px;
+margin: 20px 0;
+flex-wrap: wrap;
+}
+
+/* Emoji Button Styling */
+.emoji-btn {
+background-color: #ffffff;
+border: 4px solid #6c5ce7;
+border-radius: 50%;
+width: 100px;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 3rem;
+cursor: pointer;
+transition: all 0.3s ease;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover Effect */
+.emoji-btn:hover {
+transform: scale(1.1);
+box-shadow: 0 0 15px #74b9ff;
+border-color: #74b9ff;
+}
+
+/* Active Click Effect */
+.emoji-btn:active {
+transform: scale(0.95);
+}
+
+/* Result Section */
+.stylish-result {
+font-size: 1.8rem;
+background: rgba(255, 255, 255, 0.2);
+padding: 15px;
+border-radius: 10px;
+margin: 20px 0;
+backdrop-filter: blur(10px);
+}
+
+/* Scoreboard */
+.score {
+font-size: 1.8rem;
+color: #fff;
+margin: 10px 0;
+}
+
+/* Reset Button */
+#reset {
+background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+color: #ffffff;
+padding: 14px 28px;
+font-size: 1.2rem;
+font-weight: bold;
+border: none;
+border-radius: 50px; /* Rounded pill shape */
+cursor: pointer;
+transition: all 0.4s ease;
+box-shadow: 0 4px 15px rgba(255, 154, 158, 0.5);
+}
+
+
+#reset:hover {
+background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+box-shadow: 0 6px 20px rgba(238, 156, 167, 0.8);
+transform: translateY(-3px); /* Slight lift */
+}
+#reset:active {
+transform: scale(0.95); /* Press effect */
+box-shadow: 0 3px 10px rgba(238, 156, 167, 0.7);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+.emoji-btn {
+    width: 80px;
+    height: 80px;
+    font-size: 2rem;
+}
+
+p,h1 {
+    font-size: 1.5rem;
+}
+
+#result, #score {
+    font-size: 1.3rem;
+}
+}
+@media (max-width: 425px){
+.welcome-text{
+    font-size: 1.7rem;
+}
+.js-choice{
+    font-size: 1.8rem;
+}
+}
